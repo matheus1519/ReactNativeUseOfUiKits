@@ -1,0 +1,94 @@
+{
+  "addresses": [
+    {
+      "cep": "28035125",
+      "street": "Rua Alvarenga Filho",
+      "number": "32",
+      "complement": "",
+      "state": "RJ",
+      "city": "Campos dos Goytacazes",
+      "neighborhood": "Centro",
+      "id": 1
+    },
+    {
+      "cep": "28035125",
+      "street": "Rua Alvarenga Filho",
+      "number": "32",
+      "complement": "",
+      "state": "RJ",
+      "city": "Campos dos Goytacazes",
+      "neighborhood": "Centro",
+      "id": 2
+    },
+    {
+      "cep": "28035125",
+      "street": "Rua Alvarenga Filho",
+      "number": "32",
+      "complement": "",
+      "state": "RJ",
+      "city": "Campos dos Goytacazes",
+      "neighborhood": "Centro",
+      "id": 3
+    },
+    {
+      "cep": "28035125",
+      "street": "Rua Alvarenga Filho",
+      "number": "32",
+      "complement": "",
+      "state": "RJ",
+      "city": "Campos dos Goytacazes",
+      "neighborhood": "Centro",
+      "id": 4
+    },
+    {
+      "cep": "28083040",
+      "street": "Rua Doutor Osvaldo Silva",
+      "number": "99",
+      "complement": "casa",
+      "state": "RJ",
+      "city": "Campos dos Goytacazes",
+      "neighborhood": "Parque Calabouço",
+      "id": 5
+    },
+    {
+      "cep": "28051190",
+      "street": "Rua Max de Vasconcelos",
+      "number": "200",
+      "complement": "103B",
+      "state": "RJ",
+      "city": "Campos dos Goytacazes",
+      "neighborhood": "Parque Caju",
+      "id": 6
+    },
+    {
+      "cep": "28083101",
+      "street": "Avenida Senador José Carlos Pereira Pinto",
+      "number": "51515",
+      "complement": "casa",
+      "state": "RJ",
+      "city": "Campos dos Goytacazes",
+      "neighborhood": "Parque Calabouço",
+      "id": 7
+    },
+    {
+      "cep": "28035125",
+      "street": "Rua Alvarenga Filho",
+      "number": "21",
+      "complement": "",
+      "state": "RJ",
+      "city": "Campos dos Goytacazes",
+      "neighborhood": "Centro",
+      "id": 8
+    },
+    {
+      "cep": "06755100",
+      "street": "Rua Manoel Robles Sanches",
+      "number": "64",
+      "complement": "casa",
+      "state": "SP",
+      "city": "Taboão da Serra",
+      "neighborhood": "Jardim Ouro Preto",
+      "id": 9
+    }
+  ]
+}

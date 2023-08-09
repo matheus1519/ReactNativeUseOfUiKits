@@ -3,36 +3,31 @@ import {
   StackNavigationProp
 } from '@react-navigation/stack'
 import { NavigationContainer } from '@react-navigation/native'
-import Toast from 'react-native-toast-message'
 
-import { AddNewAddress } from './src/pages/AddNewAddress'
-import { ListAddresses } from './src/pages/ListAddresses'
+import * as eva from '@eva-design/eva'
+import { ApplicationProvider } from '@ui-kitten/components'
+
+import { AddNewPerson } from './src/pages/AddNewPerson'
 
 const Stack = createStackNavigator()
 
 export default function App () {
   return (
-    <NavigationContainer>
-      <Stack.Navigator initialRouteName="ListAddresses">
-        <Stack.Screen
-          name="ListAddresses"
-          component={ListAddresses}
-          options={{ title: 'Endereços' }}
-        />
-        <Stack.Screen
-          name="AddNewAddress"
-          component={AddNewAddress}
-          options={{ title: 'Cadastrar Endereço' }}
-        />
-      </Stack.Navigator>
-      <Toast />
-    </NavigationContainer>
+    <ApplicationProvider {...eva} theme={eva.light}>
+      <NavigationContainer>
+        <Stack.Navigator
+          initialRouteName="AddNewPerson"
+          screenOptions={{ headerShown: false }}
+        >
+          <Stack.Screen name="AddNewPerson" component={AddNewPerson} />
+        </Stack.Navigator>
+      </NavigationContainer>
+    </ApplicationProvider>
   )
 }
 
 type ScreensProp = {
-  ListAddresses: undefined
-  AddNewAddress: undefined
+  AddNewPerson: undefined
 }
 
 export type StackScreens = StackNavigationProp<ScreensProp>
